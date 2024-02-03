@@ -1,0 +1,38 @@
+.navbar {
+  background: black;
+  color: white;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+/* TodoItem.css */
+
+.todo-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
